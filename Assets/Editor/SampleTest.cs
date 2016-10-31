@@ -4,14 +4,20 @@ using NUnit.Framework;
 
 public class SampleTest
 {
+
     [Test]
-    public void SumTest()
+    public void EditorTest()
     {
-        int x = 1;
-        int y = 2;
+        //Arrange
+        var gameObject = new GameObject();
 
-        int sum = x + y;
+        //Act
+        //Try to rename the GameObject
+        var newGameObjectName = "My game object";
+        gameObject.name = newGameObjectName;
 
-        Assert.AreEqual(sum, 3);
+        //Assert
+        //The object has a new name
+        Assert.AreEqual(newGameObjectName, gameObject.name);
     }
 }
