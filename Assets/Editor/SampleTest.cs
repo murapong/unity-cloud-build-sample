@@ -20,4 +20,15 @@ public class SampleTest
         //The object has a new name
         Assert.AreEqual(newGameObjectName, gameObject.name);
     }
+
+    [Test]
+    public void SumTest()
+    {
+        int x = 1;
+        int y = 2;
+
+        int sum = x + y;
+
+        Assert.AreEqual(sum, 3);
+    }
 }
