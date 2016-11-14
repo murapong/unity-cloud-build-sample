@@ -1,2 +1,2 @@
-# unity-cloud-build-sample
+# Unity Cloud Build Sample
 This is Unity Cloud Build sample repository.
